@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dashboard/precache-manifest.5a0a43f92d5434ed63cf7120e5c477d8.js"
+  "/dashboard/precache-manifest.152a98063a55a98cb5238d5b93b57f6d.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "dashboard_plus"});
+workbox.core.setCacheNameDetails({prefix: "dashboard-plus"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
