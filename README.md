@@ -2,20 +2,25 @@
 > 原文連結 https://mike-zheng.github.io/posts/jb49vj20
 
 
+
 ## 前言
 
-這幾年的前端框架使用，開始漸漸以vue為主。基本上主流的3大框架都略有涉略，但使用vue的主要原因不外乎是他與AngularJS(第一代框架)的學習曲線很接近，且對與TypeScript這種可能某一天會像CoffeeScript突然消失的前處理語言不感興趣(雖然目前看起來是短期不會這麼容易被淘汰😆)。
-寫著寫著呢，慢慢也就開始推坑給同學，最後甚至帶進了目前的公司，公司全線新開發的前端到後來也全都是vue。
+這幾年的前端框架使用，開始漸漸以`vue`為主。基本上主流的3大框架都略有涉略，但使用`vue`的主要原因不外乎是他與`AngularJS`(第一代框架)的學習曲線很接近，且對與`TypeScript`這種可能某一天會像`CoffeeScript`突然消失的前處理語言不感興趣(雖然目前看起來是短期不會這麼容易被淘汰😆)。
+寫著寫著呢，慢慢也就開始推坑給同學，最後甚至帶進了目前的公司，公司全線新開發的前端到後來也全都是`vue`。
 
 ### 進階的前端應用程式
 
-除了在前公司有過AngularJS的線上投影片編輯器經驗外，老實說，目前大部分的日常開發不外乎是表單、表格等等清單操作，再透過ajax到backend api，進而與機器內部進行通訊。
+> 進階的前端應用程式 -> 應用程式等級的雲端編輯器
+
+除了在前公司有過`AngularJS`的線上投影片編輯器經驗外，老實說，目前大部分的日常開發不外乎是表單、表格等等清單操作，再透過ajax到backend api，進而與機器內部進行通訊。
 
 看著web領域充斥著大神，自己卻在工業領域發展產品業務為主的工作內容，其實也會開始想有機會以純前端為主的應用程式開發。
 
 ### 數據可視化儀表板
 
-碰到這個詞我會聯想到大學期間修課聽到的"資料視覺化"，但是近年來對岸的前端實力實在非比尋常，工控產業也好，前端開發也好，用詞漸漸都對齊了大眾詞，畢竟對岸人口又多，實力又強。
+
+
+"數據可視化儀表板"碰到這個詞我會聯想到大學期間修課聽到的"資料視覺化"，但是近年來對岸的前端實力實在非比尋常，工控產業也好，前端開發也好，用詞漸漸都對齊了大眾詞，畢竟對岸人口又多，實力又強。
 
 "數據可視化儀表板"
 
@@ -50,50 +55,66 @@ https://mike-zheng.github.io/dashboard/
 ## 功能特色
 
 
---------------------------------
 demo連結: https://mike-zheng.github.io/dashboard/
+
 ----------------------------------
 
 - 拖曳添加元件
+  - 透過滑鼠的拖曳將元件加入編輯畫布之中，主要就跟早期的[salesforce](https://www.salesforce.com/tw/)dashboard類似，或者是[Azure]((https://docs.microsoft.com/zh-tw/azure/azure-monitor/visualize/tutorial-logs-dashboards))。
+
 <p align="center"><img width="500" src="./0001.gif" alt="拖曳添加元件"></p>
 
 - 組件的元素調整
+  - 這邊採用的策略希望是所見即所得WYSIWYG的策略，而非跳出選單編輯不能同時觀看調整的屬性。
+
 <p align="center"><img width="500" src="./0002.gif" alt="組件的元素調整"></p>
 
 - 多選+拖曳
+  - 基本上多選與移動再各大作業系統UI上都是主流操作，因此將模組重新patch，將多選與移動加入。
+
 <p align="center"><img width="500" src="./0003.gif" alt="多選+拖曳"></p>
 
 - 複製貼上
+  - 複製節點的snapshot並存於store 上，貼上時再透過store的流程clone一份。 
+
 <p align="center"><img width="500" src="./0004.gif" alt="複製貼上"></p>
 
 - 右鍵context menu
+  - 一般網頁操作比較沒有實作的部分，將選單的內容放入並加入邏輯判斷是否能使用。
+
 <p align="center"><img width="500" src="./0005.gif" alt="右鍵context menu"></p>
 
 - tab 分頁系統
+  - 主流dashboard都實作了，感覺這應該是編輯器的基本 
+
 <p align="center"><img width="500" src="./0006.gif" alt="tab 分頁系統"></p>
 
 
 - ZoomIn/ZoomOut
+  - 這個裡面就複雜了一些。 ~~關於這個內容下次再做視頻的視頻我們下次再做視頻給大家講解~~ (誤)
+
 <p align="center"><img width="500" src="./0007.gif" alt="ZoomIn/ZoomOut"></p>
 
 - 功能列 + menu
-    - undo redo
-    - lock unlock
-    - delete
-    - save 
-    - 快捷鍵
-      * delete/backspace
-      * ctrl +V /ctrl +V
-      * Ctrl Z Ctrl Y
-      * space + mouse move
+    - 復原重作 undo redo
+    - 鎖定功能 lock unlock
+    - 刪除功能 delete
+    - 存檔功能 save 
 
 <p align="center"><img width="500" src="./0008.gif" alt="功能列 + menu"></p>
+
+- 快捷鍵
+  * 選取後刪除 Delete / Backspace
+  * 單選複製貼上 Ctrl +V / Ctrl +V
+  * 復原重作 Ctrl +Z / Ctrl +Y
+  * 畫布移動 space + mouse move
 
 <p align="center"><img width="500" src="./0009.gif" alt="space + mouse move"></p>
 
 
 
 - 多國語系
+  - 把vue i18n 實作進去 
 
 <p align="center"><img width="500" src="./0010.gif" alt="多國語系"></p>
 
@@ -102,6 +123,7 @@ demo連結: https://mike-zheng.github.io/dashboard/
 <p align="center"><img width="500" src="./0011.gif" alt="選單功能"></p>
 
 - 預覽展示
+  - 將整個編輯的editor file snapshot存入localstorage中
 
 <p align="center"><img width="500" src="./0012.gif" alt="預覽展示"></p>
 
