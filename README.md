@@ -1,5 +1,6 @@
 # dashboard+ 線上數據可視化儀表編輯器
-> 原文連結 https://mike-zheng.github.io/posts/jb49vj20
+> ~~原文連結 https://mike-zheng.github.io/posts/jb49vj20~~
+> 
 
 
 
@@ -29,7 +30,7 @@
 ## Demo
 畢竟這篇是作品展示，也算是求職用途，先讓看倌看看demo
 
-https://mike-zheng.github.io/dashboard/
+https://mike-zheng.github.io/board/
 
 去年底開始從框慢慢開始加上過年連假的衝刺，把以前的技術跟模塊整合，零碎時間湊一湊每天寫一點算是開發了好幾個月。
 
@@ -55,7 +56,7 @@ https://mike-zheng.github.io/dashboard/
 ## 功能特色
 
 
-demo連結: https://mike-zheng.github.io/dashboard/
+demo連結: https://mike-zheng.github.io/board/
 
 ----------------------------------
 
@@ -172,5 +173,5 @@ demo連結: https://mike-zheng.github.io/dashboard/
 
 
 --------------------------------
-https://mike-zheng.github.io/dashboard/
+https://mike-zheng.github.io/board/
 ----------------------------------
