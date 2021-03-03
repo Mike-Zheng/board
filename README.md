@@ -140,8 +140,8 @@ demo連結: https://mike-zheng.github.io/board/
 
 <p align="center"><img width="500" src="./0013.jpg" alt="Vue"></p>
 
--  [vue-grid-layout](https://github.com/chuxiaoguo/vue-grid-layout)
-    - 最核心的部分為 https://github.com/chuxiaoguo/vue-grid-layout
+-  [vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout)
+    - 最核心的部分為 https://github.com/jbaysolutions/vue-grid-layout
     - 這個模塊，不過由於開發後的需求，不得已將其fork下來另外加入功能。
     - 調整功能如下
       - 整合 [selection](https://github.com/Simonwep/selection) 加入選區框
