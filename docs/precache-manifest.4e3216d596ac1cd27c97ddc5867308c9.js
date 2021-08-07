@@ -272,7 +272,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/board/img/scada/svg/valveA_pre.svg"
   },
   {
-    "revision": "9d423adb3998d015251fbe293836c797",
+    "revision": "3ebdb74caa248a1c144a2b6a15ba4073",
     "url": "/board/index.html"
   },
   {
@@ -288,7 +288,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/board/robots.txt"
   },
   {
-    "revision": "8e57e8c8d4e29b1e7022",
+    "revision": "6cc2fbadc89cb232f1f9",
     "url": "/board/static/css/app.c0c55e2a.css"
   },
   {
@@ -444,8 +444,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/board/static/img/iconfont.573255ce.svg"
   },
   {
-    "revision": "8e57e8c8d4e29b1e7022",
-    "url": "/board/static/js/app.0a1916ae.js"
+    "revision": "6cc2fbadc89cb232f1f9",
+    "url": "/board/static/js/app.8436a74b.js"
   },
   {
     "revision": "bc2f23db28aece22fa78",

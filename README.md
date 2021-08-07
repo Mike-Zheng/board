@@ -35,14 +35,12 @@
 
 我想這個標題這樣定，應該是比"資料視覺化編輯器"還要精確吧
 
-## Demo
-畢竟這篇是作品展示，也算是求職用途，先讓看倌看看demo
 
-https://mike-zheng.github.io/board/
-
-去年底開始從框慢慢開始加上過年連假的衝刺，把以前的技術跟模塊整合，零碎時間湊一湊每天寫一點算是開發了好幾個月。
 
 ### 為什麼開發線上數據可視化儀表板編輯器
+
+
+去年底開始從框慢慢開始加上過年連假的衝刺，把以前的技術跟模塊整合，零碎時間湊一湊每天寫一點算是開發了好幾個月。
 
 主要還是因為工作上接觸了
 
@@ -63,10 +61,6 @@ https://mike-zheng.github.io/board/
 --------------------------------
 ## 功能特色
 
-
-demo連結: https://mike-zheng.github.io/board/
-
-----------------------------------
 
 - 拖曳添加元件
   - 透過滑鼠的拖曳將元件加入編輯畫布之中，主要就跟早期的[salesforce](https://www.salesforce.com/tw/)dashboard類似，或者是[Azure]((https://docs.microsoft.com/zh-tw/azure/azure-monitor/visualize/tutorial-logs-dashboards))。
@@ -160,10 +154,7 @@ demo連結: https://mike-zheng.github.io/board/
 -  其他
 這邊再把幾格看的到的列出來
     - [monaco-editor](https://github.com/microsoft/monaco-editor) vscode的核心
-    - [vue-file-toolbar-menu](https://github.com/motla/vue-file-toolbar-menu) 簡單小巧的toolbar menu
 
 
 
 --------------------------------
-https://mike-zheng.github.io/board/
-----------------------------------

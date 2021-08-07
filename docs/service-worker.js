@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/board/precache-manifest.6d10942f0b6e025c8927a50010206bcc.js"
+  "/board/precache-manifest.4e3216d596ac1cd27c97ddc5867308c9.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dashboard-plus"});
