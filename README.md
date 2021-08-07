@@ -1,8 +1,16 @@
-# dashboard+ 線上數據可視化儀表編輯器
-> ~~原文連結 https://mike-zheng.github.io/posts/jb49vj20~~
-> 
+<p align="center">
+<a href="https://mike-zheng.github.io/board" target="_blank" rel="noopener noreferrer">
+<p align="center"><img width="120" src="logo.png" alt="board"></p>
+</a>
+</p>
 
 
+<p align="center">
+  <img src="https://img.shields.io/badge/vue-v2.6.11-green" alt="vue-v2.6.11">
+   <img src="https://img.shields.io/badge/node-v10.15.0-red" alt="node v10.15.0">
+</p>
+
+## board+
 
 ## 前言
 
@@ -119,14 +127,11 @@ demo連結: https://mike-zheng.github.io/board/
 
 <p align="center"><img width="500" src="./0010.gif" alt="多國語系"></p>
 
-- 選單功能
-
-<p align="center"><img width="500" src="./0011.gif" alt="選單功能"></p>
 
 - 預覽展示
   - 將整個編輯的editor file snapshot存入localstorage中
 
-<p align="center"><img width="500" src="./0012.gif" alt="預覽展示"></p>
+<p align="center"><img width="500" src="./0011.gif" alt="預覽展示"></p>
 
 
 --------------------------------
@@ -138,7 +143,7 @@ demo連結: https://mike-zheng.github.io/board/
     - 基礎框架當然就是vue https://vuejs.org/
     - 然後對岸社群都講 Vue 全家桶 + [element](https://github.com/ElemeFE/element)
 
-<p align="center"><img width="500" src="./0013.jpg" alt="Vue"></p>
+<p align="center"><img width="100" src="./0013.jpg" alt="Vue"></p>
 
 -  [vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout)
     - 最核心的部分為 https://github.com/jbaysolutions/vue-grid-layout
@@ -157,19 +162,6 @@ demo連結: https://mike-zheng.github.io/board/
     - [monaco-editor](https://github.com/microsoft/monaco-editor) vscode的核心
     - [vue-file-toolbar-menu](https://github.com/motla/vue-file-toolbar-menu) 簡單小巧的toolbar menu
 
-
------------------------------
-## 小記
-
-其實除了輪子組件之外，還有非常多內部我自己實作的部分，
-像是"undo redo的策略" 或是 "資料與UI流程的導向 "，
-礙於篇幅就先這樣吧，近期因為諸多因素大概是會換個工作。
-
-待順利找到新工作，
-
-假日也有空檔再把一些實作的細節另外寫一篇跟大家分享。
-
-也歡迎大家推薦工作給我😆。
 
 
 --------------------------------
